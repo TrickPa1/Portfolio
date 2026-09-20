@@ -478,6 +478,27 @@ a{
    
 }
 
+/* Responsividade para telemóveis / ecrãs menores */
+@media (max-width: 480px) {
+  /* Grupo que contém os botões dentro do card */
+  .btn-group, .card-buttons {
+    display: flex;
+    flex-direction: column; /* Empilha os botões verticalmente em telemóveis */
+    width: 100%;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+
+  /* Faz os botões ocuparem toda a largura do cartão */
+  .btn-group .btn, .card-buttons .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem; /* Reduz ligeiramente o texto para caber bem */
+    box-sizing: border-box;
+  }
+}
+
 /* Esconde o cursor padrão do sistema */
 html, body, a, button, input, select, textarea, #menu-icon, .btn, .grid-card, .projects-card {
   cursor: none !important;
