@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel = "stylesheet" href="style.css">
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    </head>
+    <body>
+        <canvas id="canvas1"></canvas>
+        <header class="header">
+            
+            <a href="#" class="logo"><span>Patrick Langa</span></a>
+           
+            <ul class="nav-links">
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#experience">Experiência</a>
+                </li>
+                <li>
+                    <a href="#projects">Projectos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <button class="visit-btn" onclick="window.open('https://github.com/TrickPa1', '_blank')">Visite GitHub</button>
+        </header>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <img src="pfp.jpeg" alt="">
+
+                <div class="info-box">
+                    <div class="text">
+                        <h3>Ola, Sou</h3>
+                        <h1>Patrick Langa</h1>
+                        <span>Frontend Developer</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <div class="btn">Baixar CV</div>
+                        <a href="https://wa.me/258840438779?text=Olá%20Patrick,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" class="btn" target="_blank" rel="noopener noreferrer">Contacto</a>
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://github.com/TrickPa1" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/patrick-langa-149895400/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="experience">
+
+            <h2 class="section-title">Experiência</h2>
+            <div class="experience-info">
+                <div class="grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Desenvolvimento Mobile</span>
+                        <h3>2 meses</h3>
+                        <p>Desenvolvimento de aplicações mobile com Flutter e Dart. 
+                            Utilização de Lotties para animações e elementos visuais. 
+                            Trabalho em Figma e Google Stitch,  para prototipagem e implementação.
+                        </p>
+                    </div>
+                    
+                    <div class="grid-card">
+                        <i class="fa-solid fa-file-code"></i>
+                        <span>Desenvolvimento Web</span>
+                        <h3>2 meses</h3>
+                        <p>Desenvolvimento de interfaces web responsivas. 
+                            Estruturação de componentes e páginas. 
+                            Criação de aplicações utilizando Vue 3 e Quasar
+                        </p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>UI/UX e Prototipagem</span>
+                        <h3>1 mês</h3>
+                        <p>Criação e implementação de interfaces. 
+                            Estruturação de layouts para aplicações mobile e web.
+                            Criação de componentes visuais.
+                        </p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-server"></i>
+                        <span>Base de Dados</span>
+                        <h3>3 meses</h3>
+                        <p>Consultas SQL. 
+                            Utilização de Views.
+                            Configuração de ambiente Oracle em máquina virtual.
+                            Integração de Oracle com aplicações backend.
+                        </p>
+                    </div>
+                </div>
+
+                <img src="pfp.jpeg" alt="">
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projectos Recentes</h2>
+            <div class="projects-grid">
+                
+                <div class="projects-card">
+                    <img src="app-icon.png" alt="">
+                    <h3>Wheater App</h3>
+                    <p>Aplicação desenvolvida com Vue 3 e Quasar para consulta de previsão do tempo, incluindo
+visualização de mapa de vento. Projeto realizado para praticar desenvolvimento de interfaces e
+integração de funcionalidadesrelacionadas a dados meteorológicos</p>
+                    <div class="btn-group">
+                        <a href="https://wheather-app-liard-six.vercel.app/" class="btn" target="_blank" rel="noopener noreferrer">Demostração</a>
+                        <a href="https://github.com/TrickPa1/Wheather-App/" class="btn" target="_blank" rel="noopener noreferrer">
+                            Repositorio GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-card">
+                    <img src="icon.png" alt="">
+                    <h3>ChatApp</h3>
+                    <p>Aplicação Desenvolvida com Flutter e integrada com uma base de dados(Firebase), com objectivo de enviar mensagens entre usuarios, contem um simples frontend, e simples de utilizar</p>
+                    <div class="btn-group">
+                        <a href="https://mz-chat-app.vercel.app/" class="btn" target="_blank" rel="noopener noreferrer">Demostração</a>
+                        <a href="https://github.com/TrickPa1/MzChatAPP" class="btn" target="_blank" rel="noopener noreferrer">
+                            Repositorio GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="projects-card">
+                    <img src="icon3.png" alt="">
+                    <h3>Coffe App demo</h3>
+                    <p>Aplicação em Desenvolvida com Flutter, com objectivo de simular uma loja online de café, contem um simples frontend, e simples de utilizar</p>
+                    <div class="btn-group">
+                        <a href="https://coffee-app-demo-v1.vercel.app/" class="btn" target="_blank" rel="noopener noreferrer">Demostração</a>
+                        <a href="https://github.com/TrickPa1/Coffee-App-demo-v1" class="btn" target="_blank" rel="noopener noreferrer">
+                            Repositorio GitHub
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="input-box">
+                <h2 class="section-tittle">Contate Me</h2>
+                <div class="input">
+                    <input type="text" id="user-email" placeholder="exemplo@email.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="btn" id="submit-btn">Submeter</div>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#experience">Experiencia</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projectos</a>
+                </li>
+
+                <li>
+                    <a href="contact">Contacto</a>
+                </li>
+            </ul>
+
+            <p class="copyright">@ Todos Direitos Autorais Reservados | Patrick Langa</p>
+        </footer>
+
+
+        <canvas id="particle-canvas"></canvas>
+
+        <div id="kunai-cursor">
+            <svg viewBox="0 0 100 100" width="36" height="36" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="0,0 25,12 12,25" fill="#e6e6e6" stroke="#999999" stroke-width="1"/>
+            <polygon points="0,0 25,12 15,15" fill="#ffffff"/>
+            <polygon points="0,0 15,15 12,25" fill="#cccccc"/>
+            <line x1="18" y1="18" x2="42" y2="42" stroke="#cc3300" stroke-width="5" stroke-linecap="round"/>
+            <line x1="19" y1="19" x2="40" y2="40" stroke="#ffffff" stroke-width="2" stroke-dasharray="2,3"/>
+            <circle cx="46" cy="46" r="6" fill="none" stroke="#888888" stroke-width="3"/>
+            </svg>
+        </div>
+
+        <script src = "script.js"></script>
+    </body>
+</html>
