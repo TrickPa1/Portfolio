@@ -153,6 +153,16 @@ section{
 }
 
 .btn{
+    /* 1. Faz o link <a> se comportar como um bloco/botão flexível */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* 2. Remove o sublinhado azul/padrão dos links */
+  text-decoration: none;
+
+  /* 3. Garante que a cor do texto siga a cor definida no seu estilo */
+  color: inherit;
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
     border: 2px solid black;
